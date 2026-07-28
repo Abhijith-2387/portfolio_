@@ -1,0 +1,42 @@
+/*
+  PERSONAL OVERRIDES
+  Add your own small design changes here. These rules load after style.css,
+  so matching rules here take priority without changing the main stylesheet.
+*/
+
+/* Final content adjustments */
+.portrait {
+  display:block;
+  padding:0
+}
+.portrait:before,.portrait-line,.portrait-initials {
+  display:none
+}
+.portrait img {
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center 62%;
+  filter:contrast(1.04) saturate(.88)
+}
+.portrait-overlay,.portrait-tag {
+  display:none
+}
+.stats {
+  grid-template-columns:repeat(3,1fr)
+}
+#certifications,#achievements {
+  display:none
+}
+@media(max-width:850px) {
+  .stats {
+    grid-template-columns:repeat(3,1fr)
+  }
+  .stats div:nth-child(2) {
+    border-right:1px solid var(--line)
+  }
+  .stats div:nth-child(3) {
+    padding-left:18px
+  }
+}
