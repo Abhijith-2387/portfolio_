@@ -21,13 +21,13 @@ portfolio/
 
 ## Where to make common changes
 
-| What you want to change | File to edit |
-| --- | --- |
-| Name, bio, skills, education, projects, contact details | `index.html` |
-| Colours, fonts, spacing, desktop/mobile layout | `css/style.css` |
-| Small overrides without changing the main stylesheet | `css/custom.css` |
-| Menu, animation timing, counters, form feedback | `js/script.js` |
-| Profile picture or downloadable resume | `assets/images/` or `assets/resume/` |
+| What you want to change                                 | File to edit                         |
+| ------------------------------------------------------- | ------------------------------------ |
+| Name, bio, skills, education, projects, contact details | `index.html`                         |
+| Colours, fonts, spacing, desktop/mobile layout          | `css/style.css`                      |
+| Small overrides without changing the main stylesheet    | `css/custom.css`                     |
+| Menu, animation timing, counters, form feedback         | `js/script.js`                       |
+| Profile picture or downloadable resume                  | `assets/images/` or `assets/resume/` |
 
 ## Safe editing tips
 
