@@ -610,6 +610,10 @@ h1 em {
   color: #ccc;
   border-color: #555;
 }
+.project-link {
+  align-self: flex-start;
+  margin-top: 22px;
+}
 .project-art {
   align-self: end;
   position: relative;
