@@ -87,7 +87,7 @@ new IntersectionObserver(
 
         const timer = setInterval(() => {
           value++;
-          el.textContent = value + (end === 1 ? "+" : "+");
+          el.textContent = value + (end === 1 ? "" : "+");
 
           if (value >= end) {
             clearInterval(timer);

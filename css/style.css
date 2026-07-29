@@ -801,6 +801,10 @@ h1 em {
   color: var(--red);
   font-size: 12px;
 }
+.contact-list .github-icon svg {
+  width: 15px;
+  height: 15px;
+}
 .contact-list small {
   display: block;
   color: #777;
