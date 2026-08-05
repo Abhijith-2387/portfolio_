@@ -682,6 +682,35 @@ h1 em {
   bottom: 2px;
   right: 7px;
 }
+.email-art {
+  width: 210px;
+  height: 145px;
+  border: 1px solid #8e3d3d;
+  background: #281919;
+  padding: 25px 22px;
+  display: grid;
+  grid-template-columns: 36px 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px 14px;
+  align-items: center;
+}
+.email-art span {
+  grid-row: span 3;
+  color: #ff7777;
+  font: 800 18px Manrope;
+  letter-spacing: -1px;
+}
+.email-art i {
+  display: block;
+  height: 7px;
+  background: #b65252;
+}
+.email-art i:nth-of-type(2) {
+  width: 78%;
+}
+.email-art i:nth-of-type(3) {
+  width: 58%;
+}
 .experience-card {
   border-top: 1px solid #d8d8d8;
   padding: 30px 0;
