@@ -1,10 +1,3 @@
-/*
-  PERSONAL OVERRIDES
-  Add your own small design changes here. These rules load after style.css,
-  so matching rules here take priority without changing the main stylesheet.
-*/
-
-/* Final content adjustments */
 .portrait {
   display: block;
   padding: 0;
