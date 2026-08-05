@@ -31,14 +31,46 @@ Visit the published portfolio here:
 - HTML5
 - CSS3
 - JavaScript
+- React
+- Vite
+- Node.js
+- Express
+- MongoDB
+- Mongoose
 - Google Fonts
-- FormSubmit
-- GitHub Pages
+
+## MERN Backend Features
+
+- React portfolio frontend
+- Express REST API
+- MongoDB contact message storage
+- Mongoose contact message model
+- Protected admin message-list endpoint
+- Local development scripts for frontend and backend
 
 ## Project Structure
 
 ```text
 .
+|-- client/
+|   |-- public/
+|   |   `-- assets/
+|   |-- src/
+|   |   |-- main.jsx
+|   |   `-- styles.css
+|   |-- index.html
+|   `-- package.json
+|-- server/
+|   |-- src/
+|   |   |-- app.js
+|   |   |-- server.js
+|   |   |-- config/
+|   |   |-- controllers/
+|   |   |-- middleware/
+|   |   |-- models/
+|   |   `-- routes/
+|   |-- .env.example
+|   `-- package.json
 |-- assets/
 |   |-- images/
 |   |   |-- favicon.svg
@@ -50,30 +82,69 @@ Visit the published portfolio here:
 |   `-- custom.css
 |-- js/
 |   `-- script.js
+|-- .env.example
+|-- package.json
 |-- index.html
 `-- README.md
 ```
 
 ## Running Locally
 
-This is a static website. No build tools or package installation are required.
-
-Option 1: Open directly
-
-```text
-Open index.html in a browser.
-```
-
-Option 2: Run with a local server
+Install dependencies:
 
 ```bash
-python -m http.server 8000
+npm run install:all
+```
+
+Create your local environment:
+
+```bash
+copy .env.example .env
+```
+
+Start MongoDB locally, then run the React frontend and Express backend together:
+
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:5173
+```
+
+The API runs at:
+
+```text
+http://localhost:5000
+```
+
+Useful API routes:
+
+```text
+GET  /api/health
+POST /api/contact
+GET  /api/contact
+```
+
+For `GET /api/contact`, send:
+
+```text
+Authorization: Bearer local-admin-token
+```
+
+Production build:
+
+```bash
+npm run build
+npm start
 ```
 
 Then open:
 
 ```text
-http://localhost:8000
+http://localhost:5000
 ```
 
 ## Ownership and Usage Restrictions
