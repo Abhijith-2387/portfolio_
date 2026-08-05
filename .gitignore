@@ -1,0 +1,22 @@
+# Private/local files
+.env
+.env.*
+*.local
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependency/build folders, if added later
+node_modules/
+dist/
+build/
+
+# Keep private assets out of Git.
+# Put files here when they should not be committed or published.
+assets/private/
+
+# If you do not want resume PDFs committed publicly, uncomment this line.
+# assets/resume/*.pdf
